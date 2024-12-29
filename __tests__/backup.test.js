@@ -5,10 +5,6 @@ describe('test utility functions defined in funcs file', () => {
 		expect(add(6, 6)).toBe(12)
 	})
 
-	test('adds 6 + 6 to equal 12', () => {
-		expect(add(6, 6)).toBe(1200)
-	})
-
 	test('adds 6 + 5 to not equal 12', () => {
 		expect(add(6, 5)).not.toBe(12)
 	})

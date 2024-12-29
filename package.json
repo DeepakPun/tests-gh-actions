@@ -1,25 +1,27 @@
 {
-  "name": "tests-gh-actions",
-  "version": "1.0.0",
-  "description": "testing out github actions",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index",
-    "dev": "nodemon dev",
-    "test": "jest"
-  },
-  "keywords": [
-    "node",
-    "github",
-    "actions"
-  ],
-  "author": "Deepak Pun",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.21.2"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0",
-    "nodemon": "^3.1.9"
-  }
+	"name": "tests-gh-actions",
+	"version": "1.0.0",
+	"description": "testing out github actions",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node index",
+		"dev": "nodemon index",
+		"test": "jest --watchAll --verbose --coverage"
+	},
+	"keywords": [
+		"node",
+		"github",
+		"actions"
+	],
+	"author": "Deepak Pun",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.21.2"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0",
+		"jest-html-reporter": "^3.10.2",
+		"nodemon": "^3.1.9"
+	}
 }
