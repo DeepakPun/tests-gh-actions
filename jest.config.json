@@ -10,5 +10,5 @@
 			}
 		]
 	],
-	"testResultProcessor": "./node_modules/jest-html-reporter"
+	"testResultsProcessor": "./node_modules/jest-html-reporter"
 }
