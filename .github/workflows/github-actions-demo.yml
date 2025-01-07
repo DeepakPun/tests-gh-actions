@@ -18,7 +18,7 @@ jobs:
         run: npm install
 
       - name: Run Jest tests
-        run: npm test
+        run: CI=true npm test
 
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
