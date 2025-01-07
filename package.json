@@ -12,7 +12,7 @@
 	"scripts": {
 		"start": "node index",
 		"dev": "nodemon index",
-		"test": "jest --watchAll --verbose --coverage"
+		"test": "jest --verbose --coverage"
 	},
 	"keywords": [
 		"node",
