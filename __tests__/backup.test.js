@@ -6,7 +6,7 @@ describe('test utility functions defined in funcs file', () => {
 	})
 
 	test('adds 6 + 5 to equal 11', () => {
-		expect(add(6, 5)).not.toBe(12)
+		expect(add(6, 5)).not.toBe(12000)
 	})
 
 	test('subtract 10 - 4 to equal 6', () => {
