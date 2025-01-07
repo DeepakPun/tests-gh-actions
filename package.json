@@ -4,6 +4,11 @@
 	"description": "testing out github actions",
 	"main": "index.js",
 	"type": "module",
+	"jest-html-reporter": {
+		"pageTitle": "Unit Tests",
+		"outputPath": "test-report/index.html",
+		"includeFailureMsg": false
+	},
 	"scripts": {
 		"start": "node index",
 		"dev": "nodemon index",
