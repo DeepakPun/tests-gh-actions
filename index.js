@@ -11,9 +11,10 @@ const __dirname = path.dirname(__filename) // get the name of the directory
 app.use('/test', express.static(path.join(__dirname, 'test-report')))
 
 app.get('/', (req, res) => {
-	res.send(`
+  res.send(`
 		Hello from express <br /> <br />
 		<a href='/test' target='_blank'>Test results</a>
+		<p>This is awesome</p>
 		`)
 })
 
